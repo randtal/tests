@@ -31,7 +31,7 @@ const Test1 = () => {
         <img style={{width: 200}} src={test1Example}/>
       </div>
       <div>
-        [replace me]
+        [REPLACE ME]
       </div>
       <div><span className={"bold"}>Summa kokku:</span> [replace me]</div>
     </div>

@@ -13,7 +13,18 @@ const Test2 = () => {
 
       <div style={{display:"flex", alignItems: "center"}}>
         <div>
-          Likes: [replace me]
+          {
+            constructor(props) {
+              super(props);
+              this.handleMouseClick = this.handleMouseClick.bind(this);
+              this.state = {0};
+            }
+
+            render(){
+              //onClick funktsioon siin kohal tuleks luua
+            }
+          }
+          Likes:
         </div>
         <TiHeartFullOutline />
         <div>Click me</div>
