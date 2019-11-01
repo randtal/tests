@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from 'react-dom'
 import test1Example from "./test1_example.png";
 
 // eslint-disable-next-line
@@ -31,7 +32,12 @@ const Test1 = () => {
         <img style={{width: 200}} src={test1Example}/>
       </div>
       <div>
-        [REPLACE ME]
+        <script>
+          ReactDOM.render(
+            <ul>{ITEMS}</ul>,
+            document.getElementById('root')
+          );
+        </script>
       </div>
       <div><span className={"bold"}>Summa kokku:</span> [replace me]</div>
     </div>
